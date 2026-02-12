@@ -140,7 +140,7 @@ body {
     min-width: 85vw;
     /* Show part of next category to encourage swipe */
     max-width: 400px;
-    height: 85%;
+    height: 96%;
     /* Fill most of the vertical space */
     background: rgba(255, 255, 255, 0.2);
     /* Glassy feel */
