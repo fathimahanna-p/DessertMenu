@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choco Hug | Digital Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <!-- Logo will be injected here or background image -->
+            <img src="https://placehold.co/150x150/FFC400/0A3D2E?text=Choco+Hug" alt="Choco Hug Logo" class="brand-logo" onerror="this.style.display='none'; document.querySelector('.logo-text').style.display='block'">
+            <h1 class="logo-text" style="display:none">CHOCO HUG</h1>
+        </div>
+        <p class="tagline">Warm. Indulgent. Yours.</p>
+    </header>
+
+    <main class="menu-container">
+        
+        <!-- Navigation Indicators (Optional, for visual cue) -->
+        <div class="swipe-hint">
+            <span>Swipe to explore</span>
+            <div class="arrow-anim">→</div>
+        </div>
+
+        <!-- Horizontal Scroll Area -->
+        <div class="horizontal-scroll-wrapper">
+
+            <!-- Category 1: Kunafa Specials -->
+            <section class="menu-category" id="kunafa">
+                <h2 class="category-title">Kunafa Specials</h2>
+                <div class="cards-container">
+                    
+                    <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/e0e0e0/0A3D2E?text=Classic+Kunafa" alt="Classic Cheese Kunafa">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Classic Cheese Kunafa</h3>
+                            <p class="product-desc">Golden crispy pastry filled with oozing warm cheese, topped with pistachio.</p>
+                            <span class="price">25 AED</span>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/3e2723/fafafa?text=Choco+Kunafa" alt="Chocolate Kunafa">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Chocolate Kunafa</h3>
+                            <p class="product-desc">Our signature Kunafa drenched in rich Belgian milk chocolate.</p>
+                            <span class="price">30 AED</span>
+                        </div>
+                    </article>
+
+                     <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/fff9c4/0A3D2E?text=Cream+Kunafa" alt="Cream Kunafa">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Cream Kunafa</h3>
+                            <p class="product-desc">Soft and crunchy pastry layered with fresh cloud-like cream.</p>
+                            <span class="price">28 AED</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category 2: Arabian Desserts -->
+            <section class="menu-category" id="arabian">
+                <h2 class="category-title">Arabian Desserts</h2>
+                <div class="cards-container">
+                    
+                    <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/8bc34a/0A3D2E?text=Pistachio+Baklava" alt="Pistachio Baklava">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Pistachio Baklava</h3>
+                            <p class="product-desc">Layers of delicate filo pastry filled with roasted crushed pistachios.</p>
+                            <span class="price">45 AED</span>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/f8bbd0/0A3D2E?text=Halawet+El+Jibn" alt="Halawet El Jibn">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Halawet El Jibn</h3>
+                            <p class="product-desc">Sweet cheese rolls filled with fresh cream and drizzled with rose water syrup.</p>
+                            <span class="price">35 AED</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- Category 3: Drinks (Optional filler) -->
+             <section class="menu-category" id="drinks">
+                <h2 class="category-title">Warm Sips</h2>
+                <div class="cards-container">
+                    
+                    <article class="product-card">
+                        <div class="card-image">
+                            <img src="https://placehold.co/400x300/795548/fff?text=Arabic+Coffee" alt="Arabic Coffee">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="product-name">Arabic Coffee</h3>
+                            <p class="product-desc">Traditional cardamom-spiced coffee served with dates.</p>
+                            <span class="price">15 AED</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
