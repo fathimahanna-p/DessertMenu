@@ -295,32 +295,7 @@ body {
     margin-top: auto;
 }
 
-.add-btn {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    background: var(--primary-text);
-    color: #fff;
-    border: none;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    font-size: 1.5rem;
-    line-height: 1;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s, transform 0.2s;
-    padding-bottom: 3px;
-    /* visual center adjustment */
-}
 
-.add-btn:hover {
-    background: var(--primary-bg);
-    color: var(--primary-text);
-    transform: rotate(90deg);
-}
 
 /* Desktop styles */
 @media (min-width: 768px) {
